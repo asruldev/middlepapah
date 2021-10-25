@@ -4,6 +4,6 @@ export interface Request extends express.Request {}
 export interface Response extends express.Response {}
 export interface NextFunction extends express.NextFunction {}
 export interface UserRole extends Request {
-    user: any;
+  user: any;
 }
-export type Role = string | number
+export type Role = string | number;

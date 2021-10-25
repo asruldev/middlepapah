@@ -1,6 +1,6 @@
 {
   "name": "middlepapah",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware untuk express js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
