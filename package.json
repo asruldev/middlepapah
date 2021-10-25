@@ -9,8 +9,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
+    "prepublishOnly": "npm test",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "build": "tsc",
@@ -22,7 +21,11 @@
     "type": "git",
     "url": "git+https://github.com/asruldev/middlepapah.git"
   },
-  "keywords": ["Express", "Nodejs", "middleware"],
+  "keywords": [
+    "Express",
+    "Nodejs",
+    "middleware"
+  ],
   "author": "Asrul Harahap <talkasrul@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -30,6 +33,7 @@
   },
   "homepage": "https://github.com/asruldev/middlepapah#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.0.2",
     "jest": "^27.3.1",
     "prettier": "^2.4.1",

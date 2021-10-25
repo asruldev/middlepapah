@@ -1,1 +1,7 @@
-<!-- git remote add origin https://github.com/asruldev/middlepapah.git -->
+## Middlepapah
+
+### How to install
+
+```
+npm i middlepapah
+```
